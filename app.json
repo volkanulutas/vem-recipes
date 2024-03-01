@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Instafood",
-    "slug": "instafood-recipes-app",
+    "name": "Tarfilerim",
+    "slug": "tariflerim-app",
     "description": "React Native Recipes App Demo. Download source code for free at https://www.instamobile.io . You can also check out the Swift version at https://www.iosapptemplates.com and the Kotlin version at https://www.instakotlin.com .",
     "privacy": "public",
     "version": "1.0.0",
@@ -26,10 +26,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.volkanulutas.tariflerimapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "57a13fb2-e210-455a-8832-15c05047ad41"
+      }
     }
   }
 }

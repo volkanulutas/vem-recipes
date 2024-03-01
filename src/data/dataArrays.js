@@ -1,31 +1,26 @@
 export const categories = [
   {
     id: 3,
-    name: 'Cookies',
+    name: 'Kurabiyeler',
     photo_url:
     'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
   },
   {
     id: 1,
-    name: 'Mexican Food',
-    photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
+    name: 'Yöresel Yemekler',
+    photo_url: 'https://blog.turkishairlines.com/wp-content/uploads/2022/02/turk-yemekleri-yaprak-sarma.jpg'
   },
   {
     id: 2,
-    name: 'Italian Food',
+    name: 'İtalyan Yemekleri',
     photo_url:
       'https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
   },
   {
     id: 4,
-    name: 'Smoothies',
+    name: 'Meyve Püreleri (Smoothies)',
     photo_url:
     'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
-  },
-  {
-    id: 0,
-    name: 'Pizza',
-    photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
   },
 ];
 
@@ -33,7 +28,7 @@ export const recipes = [
   {
     recipeId: 122,
     categoryId: 3,
-    title: 'Oatmeal Cookies',
+    title: 'Yulaflı Kurabiye',
     photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
     photosArray: [
       'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
@@ -43,14 +38,14 @@ export const recipes = [
       'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
     ],
     time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
-    description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
-  },
+    ingredients: [[0, '1 Su Bardağı'], [1, '1 Çay Kaşığı'], [2, '300 gram']],
+    description: '-- Temizlenmiş ve soyulmuş iri patateslerle başlayın, bunları 5-6 santimetrelik kibrit çöpü şeklinde doğrayın. Çok soğuk su dolu bir kaba yerleştirin: su berrak olana kadar sürekli durulayın ve suyu değiştirin; iyice süzün ve kağıt havlu veya temiz tüy bırakmayan bir mutfak havlusuyla kurulayın. \n\n -- Bu arada, yağınızı 350 dereceye önceden ısıtın. Hazırladığınız patatesleri yağa koyun ve yaklaşık 5 dakika pişirin. Onlarda o sarımtırak renk oluşacak. \n\n  -- Not: Soğuk patatesleri sıcak yağa eklediğinizde, yağınızın sıcaklığı düşecek - yağınızın sıcaklığının 330 ila 325 derece arasında olmasını istersiniz. \n\n -- Yağdan çıkarın; süzün ve soğumaya bırakın. Şimdi - ya pişirmeye hazır olana kadar buzdolabında bekletin ya da tamamen soğutun ve 3 ay boyunca dondurun. Doğru bir şekilde dondurmak için - tamamen soğumuş patates kızartmalarını tepsiye tek bir tabaka halinde yerleştirin ve donana kadar dondurucuya koyun. Daha sonra onları poşetleyin.\n\n -- Pişirmeyi tamamlamak için - yağınızı 400 dereceye önceden ısıtın. Soğuk patates kızartmalarınızı ekleyin (ki bu yağın sıcaklığını düşürecek - bu da önemli çünkü yağ sıcaklığını yaklaşık 375 dereceye yakın istersiniz) ve pişene kadar birkaç dakika pişirin. Hafifçe tuzlayın ve tuzu iyi dağılması için iyice çalkalayın ve çok tuzlu olmamasına dikkat edin.'
+  
+ },
   {
     recipeId: 3,
     categoryId: 4,
-    title: 'Triple Berry Smoothie',
+    title: 'Karışık Mey Püreleri',
     photo_url:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
     photosArray: [
@@ -61,43 +56,17 @@ export const recipes = [
     ],
     time: '10',
     ingredients: [
-      [59, '1'],
-      [60, '1/2 lbs'],
-      [61, '1/2 liters'],
+      [59, '1 adet'],
+      [60, '200 gram'],
+      [61, '1/2 litre'],
     ],
-    description: 'In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with blackberries, if desired.'
+    description: 'Blender içerisine tüm malzemeleri ekleyin ve pürüzsüz olana kadar karıştırın. Daha sonra, isteğe bağlı olarak 2 su bardağı arasında paylaştırın ve üzerine istenirse böğürtlen ekleyin.'
   },
-  {
-    recipeId: 2,
-    categoryId: 3,
-    title: 'Vegan Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
-    photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
-      'https://ichef.bbci.co.uk/news/660/cpsprodpb/B2C0/production/_106106754_vegnuggets976.jpg',
-      'https://pixel.nymag.com/imgs/daily/grub/2017/11/22/22-mcds-chicken-tenders.w330.h330.jpg',
-      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-508510211.jpg%3Fitok%3Dh-Uryi8r&w=400&c=sc&poi=face&q=85'
-    ],
-    time: '30',
-    ingredients: [
-      [0, '2 quarts'],
-      [16, '1'],
-      [12, '1 cup'],
-      [18, '1 cup'],
-      [19, '1 teaspoon'],
-      [1, '2 teaspoons'],
-      [4, '1/4 teaspoons'],
-      [7, '1/8 teaspoons'],
-      [20, '1/2 teaspoons'],
-      [21, '4']
-    ],
-    description:
-      '-- Beat the egg and then combine it with water in a bowl. Stir. Combine the flour, salt, MSG, pepper, onion powder and garlic powder in a gallon size zip lock bag. Pound each of the breast filets until about 1/4-inch thick. Then cut into bite sized pieces. Coat each piece with the flour mixture by shaking in the zip lock bag. Remove and coat in the egg mixture. Then coat in the flour mixture again. Shake to coat. Deep fry at 375 degrees for 10-12 minutes, until browned and crispy.'
-  },
+  
   {
     recipeId: 3,
     categoryId: 3,
-    title: 'Pumpkin Spice Cookies',
+    title: 'Balkabaklı Kurabiye',
     photo_url:
       'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
     photosArray: [
@@ -108,27 +77,24 @@ export const recipes = [
     ],
     time: '45',
     ingredients: [
-      [0, '2 tablespoons'],
-      [22, '1/2'],
-      [23, '2 tablespoons'],
-      [7, '2 cloves'],
-      [3, '1 teaspoon'],
-      [24, '1 tablespoon'],
+      [0, '2 Yemek Kaşığı'],
+      [22, '2 adet'],
+      [23, '2 Yemek Kaşığı'],
+      [7, '2 Tutam'],
+      [3, '1 Çay Kaşığı'],
+      [24, '1 Yemek Kaşığı'],
       [25, '1 lb'],
-      [1, '2 teaspoons'],
-      [4, '2 teaspoons'],
-      [26, '15 oz'],
+      [1, '2 Çay Kaşığı'],
+      [4, '2 Çay Kaşığı'],,
       [27, '8'],
-      [28, '2'],
-      [29, '1 cup']
+      [29, '1 Su Bardağı']
     ],
     description:
-      '-- In a medium pot over medium heat, heat 1 tablespoon oil. Add onion and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Add tomato paste and stir to coat onion and garlic. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat.\n\n -- Return beef to pot and season with chili powder, paprika, salt, and pepper. Add tomato sauce and kidney beans. Bring to a boil, then reduce heat and let simmer 15 minutes. Add some chili to center of each tortilla, leaving room to fold in edges. Top with Fritos, then cheddar. Fold edges of tortillas toward the center, creating pleats. Invert Crunchwraps so pleats are on the bottom and stay together.\n\n -- In medium skillet over medium heat, heat remaining tablespoon oil. Add a Crunchwrap seam side down and cook until tortilla is golden, 3 to 5 minutes per side. Repeat with remaining Crunchwraps'
-  },
+    '-- Orta ateşte orta boy bir tencerede 1 yemek kaşığı yağı ısıtın. Soğanı ekleyin ve yumuşayana kadar 5 dakika pişirin. Sarımsağı ekleyin ve kokusu çıkana kadar 1 dakika daha pişirin. Domates salçasını ekleyin ve soğan ve sarımsağı kaplayacak şekilde karıştırın. Kıymayı ekleyin ve tahta kaşıkla eti ufalayarak, pembeleşene kadar pişirin, yaklaşık 6 dakika. Yağını süzün. \n \n -- Kıymayı tencereye geri koyun ve biber, kırmızı toz biber, tuz ve karabiberle tatlandırın. Domates sosu ve kırmızı fasulyeyi ekleyin. Kaynatın, sonra ateşi kısın ve 15 dakika kadar kaynatın. Her tortillanın merkezine biraz chili koyun ve kenarları katlayacak yer bırakın. Üzerine Fritos koyun, sonra cheddar peyniri. Tortilla kenarlarını merkeze doğru katlayarak katlar oluşturun. Crunchwrap\'leri ters çevirin, böylece katlar altta kalır ve bir arada kalır. \n \n -- Orta boy bir tavada orta ateşte kalan 1 yemek kaşığı yağı ısıtın. Bir Crunchwrap\'i dikiş tarafı aşağı gelecek şekilde ekleyin ve tortilla altın rengini alana kadar her iki tarafını da 3 ila 5 dakika pişirin. Kalan Crunchwraps ile tekrarlayın.'},
   {
     recipeId: 1,
     categoryId: 3,
-    title: 'Brownies',
+    title: 'Browni',
     photo_url: 'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
     photosArray: [
       'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
@@ -138,31 +104,19 @@ export const recipes = [
     ],
     time: '30',
     ingredients: [
-      [1, '2 tablespoons'],
-      [3, '1 tablespoon'],
-      [4, '1 teaspoon'],
-      [5, '1/2 teaspoons'],
-      [6, '1/2 teaspoons'],
-      [7, '1/2 teaspoons'],
-      [8, '1/2 teaspoons'],
-      [9, '1/2 teaspoons'],
-      [10, '1/2 teaspoons'],
-      [11, '1/2 teaspoons'],
-      [12, '1/2 cups'],
-      [13, '1 tablespoon'],
-      [14, '1 tablespoon'],
-      [15, '2 breasts, 2 thighs, 2 drumsticks, 2 wings'],
-      [16, '1'],
-      [17, '2 quarts']
+      [63, '300 gram Bitter (İri Parçalanmış)'],
+      [16, '3 adet'],
+      [42, '150 Gram'],
+      [55, '1 Su Bardağı'],
+      [12, '1 Su Bardağı'],
+      [64, '1 Paket Vanilya'],
     ],
-    description:
-      '-- Preheat fryer to 350°F. Thoroughly mix together all spices. Combine spices with flour, brown sugar and salt. Dip chicken pieces in egg white to lightly coat them, then transfer to flour mixture. Turn a few times and make sure the flour mix is really stuck to the chicken.\n\n -- Repeat with all the chicken pieces. Let chicken pieces rest for 5 minutes so crust has a chance to dry a bit. Fry chicken in batches. Breasts and wings should take 12-14 minutes, and legs and thighs will need a few more minutes. Chicken pieces are done when a meat thermometer inserted into the thickest part reads 165°F. Let chicken drain on a few paper towels when it comes out of the fryer. Serve hot.'
-  },
+    description:'-- Tereyağını minik bir sos tenceresinin içerisinde eritin. \n \n -- Eridiği gibi ocaktan alın ve tereyağınız henüz sıcakken parça parça böldüğünüz çikolataları içerisine aktarın. Tereyağının sıcağı ile erimesini sağlayın. \n \n  -- Ardından tereyağlı çikolata karışımını oda sıcaklığında soğuması için bir kenara alın. \n \n -- Bir kabın içerisine yumurtaları alın, şekeri de ilave ederek güzelce çırpın. \n \n -- Çırpılan şekerle yumurtaların üzerine azar azar tereyağlı çikolatalı karışımı aktarın ve karıştırmaya devam edin. \n \n -- Tüm karışımı ekleyip karıştırdıktan sonra un ve vanilyayı eleyerek üzerine ilave edin. \n \n -- Spatula yardımıyla brownie harcını tüm malzemeler birleşinceye dek katlayarak karıştırın. \n \n Ardından yağlanmış ya da pişirme kağıdı serilmiş 20 cm\'lik kare kek kalıbına hazırladığınız karışımı aktarın. Üst kısmını spatulayla düzeltin. \n \n -- 160 derecede önceden ısıtılmış fansız fırında 30-35 dakika kadar pişirin. Üzeri hafif çatlak bir görünüm alınca fırından çıkarın ve oda sıcaklığında en az 1 saat kadar dinlendirin. \n \n -- Brownie hazır. Dinlendikçe kıvamı güzelleşecektir. Dinlendikten sonra dilimleyerek servis edebilirsiniz.'},
   {
     recipeId: 4,
     categoryId: 1,
-    title: 'Perfect Fish Tacos',
-    photo_url: 'https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg',
+    title: 'Kayseri Yağlaması',
+    photo_url: 'https://cdn.yemek.com/mnresize/1250/833/uploads/2019/11/kayseri-yaglamasi-yemekcom.jpg',
     photosArray: [
       'http://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/2014/04/WGC-Fish-Tacos-copy-2.jpg',
       'https://thecozyapron.com/wp-content/uploads/2018/03/baja-fish-tacos_thecozyapron_1.jpg',
@@ -170,17 +124,19 @@ export const recipes = [
     ],
     time: '35',
     ingredients: [
-      [30, 'jucie of 1 '],
-      [24, '2 teaspoons'],
-      [0, '3 tablespoons'],
-      [3, '1 teaspoon'],
-      [31, '1/2 teaspoons'],
-      [32, '1/2 teaspoons'],
-      [4, '2 teaspoons'],
-      [33, '1/2 lb'],
-      [27, '8'],
-      [14, '2 teasponns'],
-      [34, '1']
+      [12, '4 Su Bardağı (Hamuru İçin)'],
+      [1, '1,5 Çay Kaşığı (Hamuru İçin)'],
+      [0, '3 Yemek Kaşığı (Hamuru İçin)'],
+      [62, '1 Yemek Kaşığı Maya (Hamuru İçin)'],
+      [18, '1,5 Su Bardağı (Ilık) (Hamuru İçin)'],
+      [42, '4 Yemek Kaşığı (Kıyma Harcı İçin)'],
+      [0, '1/2 Çay Bardağ Sıvı Yağ (Kıyma Harcı İçin)'],
+      [22, '1 Adet Orta Boy (Kıyma Harcı İçin)'],
+      [25, '500 gram Orta Yağlı (Kıyma Harcı İçin)'],
+      [23, '1 Yemek Kaşığı (Kıyma Harcı İçin)'],
+      [54, '2,5 Su Bardağı (Kıyma Harcı İçin)'],
+      [4, '1 Çay Kaşığı (Kıyma Harcı İçin)'], 
+      [18, '1,5 Su Bardağı Su (Kıyma Harcı İçin)'], 
     ],
     description:
       '-- In a medium shallow bowl, whisk together olive oil, lime juice, paprika, chili powder, cumin, and cayenne. Add cod, tossing until evenly coated. Let marinate 15 minutes. Meanwhile, make slaw: In a large bowl, whisk together mayonnaise, lime juice, cilantro, and honey. Stir in cabbage, corn, and jalapeño. Season with salt and pepper.\n\n -- In a large nonstick skillet over medium-high heat, heat vegetable oil. Remove cod from marinade and season both sides of each filet with salt and pepper. Add fish flesh side-down. Cook until opaque and cooked through, 3 to 5 minutes per side.\n\n -- Let rest 5 minutes before flaking with a fork. Assemble tacos: Serve fish over grilled tortillas with corn slaw and avocado. Squeeze lime juice on top and garnish with sour cream. '
@@ -188,7 +144,7 @@ export const recipes = [
   {
     recipeId: 5,
     categoryId: 1,
-    title: 'Chicken Fajitas',
+    title: 'Tavuk Fijita',
     photo_url:
       'https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Flavorful-Chicken-Fajitas_EXPS_GHBZ18_12540_B08_15_8b.jpg',
     photosArray: [
@@ -198,59 +154,25 @@ export const recipes = [
     ],
     time: 35,
     ingredients: [
-      [9, '1/2 teaspoons'],
-      [0, '4 tablespoons'],
-      [1, '1/2 teaspoons'],
-      [30, '2 tablespoons'],
-      [31, '1 teaspoon'],
-      [7, '1 teaspoon'],
-      [24, '1/2 teaspoons'],
-      [3, '1/2 teaspoons'],
-      [21, '1 pound'],
-      [22, '1/2 cup'],
-      [27, '6'],
-      [36, '4'],
-      [37, '1/2'],
-      [38, '1/2']
+      [9, '1/2 Çay Kaşığı'],
+      [0, '4 Yemek Kaşığı'],
+      [1, '1/2 Çay Kaşığı'],
+      [30, '2 Yemek Kaşığı'],
+      [31, '1 Çay Kaşığı'],
+      [7, '1 Çay Kaşığı'],
+      [24, '1/2 Çay Kaşığı'],
+      [3, '1/2 Çay Kaşığı'],
+      [21, '400 gram'],
+      [27, '6 adet'],
+      [36, '4 adet'],
+      [37, '5 adet'],
+      [38, '5 adet']
     ],
-    description:
-      '-- In a large bowl, combine 2 tablespoons oil, lemon juice and seasonings; add the chicken. Turn to coat; cover. Refrigerate for 1-4 hours In a large skillet, saute peppers and onions in remaining oil until crisp-tender. Remove and keep warm. Drain chicken, discarding marinade. In the same skillet, cook chicken over medium-high heat for 5-6 minutes or until no longer pink.\n\n -- Return pepper mixture to pan; heat through. Spoon filling down the center of tortillas; fold in half. Serve with toppings as desired.'
-  },
-  {
-    recipeId: 6,
-    categoryId: 2,
-    title: 'Buffalo Pizza',
-    photo_url:
-      'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
-    photosArray: [
-      'https://www.tablefortwoblog.com/wp-content/uploads/2019/01/buffalo-chicken-pizza-recipe-photos-tablefortwoblog-3-500x500.jpg',
-      'http://pizzachoicema.com/wp-content/uploads/2018/08/Buffalo-Chicken-Pizza.jpg',
-      'https://static1.squarespace.com/static/565bb41ae4b0509ba9fdf769/t/5b9a8e80aa4a998b0be0fcf4/1536855690622/pizza.gif'
-    ],
-    time: 50,
-    ingredients: [
-      [39, '1 lb'],
-      [40, '1 cup'],
-      [41, '1/2 cup'],
-      [42, '1/4 cup'],
-      [43, '2 tablespoons'],
-      [44, '1/2 cup'],
-      [7, '1/4 teaspoons'],
-      [5, '1/4 teaspoons'],
-      [30, '1/4 teaspoons'],
-      [45, '2 oz'],
-      [12, 'for dusting'],
-      [4, '1/2 teaspoons'],
-      [47, '2'],
-      [46, '9 oz']
-    ],
-    description:
-      '-- Place a rack in upper third of oven. Place a large cast-iron skillet on rack and preheat oven to 500° (or as high as your oven will go). Place pizza dough in a large bowl, pour a little oil over, and turn to coat. Cover bowl with plastic and let dough proof at room temperature while pan and oven heat up.\n\n -- Meanwhile, cook hot sauce, marinara sauce, and butter in a medium saucepan over medium heat, stirring occasionally, until butter is melted. Stir in cream, reduce heat to low, and simmer, stirring occasionally, until slightly thickened and warmed through, about 10 minutes. Heat 1 Tbsp. oil in a large skillet over medium-high. Add chicken, toss to coat, then add ¼ cup Buffalo sauce.\n\n -- Cook chicken, tossing occasionally, until heated through, about 2 minutes. Reduce heat and simmer, stirring often, until chicken is well coated and sauce is slightly thickened, about 5 minutes. Meanwhile, whisk yogurt, lemon juice, celery salt, garlic powder, ¼ cup blue cheese, ½ tsp. pepper, and 2 Tbsp. water in a small bowl, adding more water if sauce seems too thick (it should be pourable); set aside.\n\n -- Turn out dough onto a lightly floured work surface. Shape with your hands into a round that’s slightly larger than the cast-iron skillet you’re using. Take hot skillet out of oven (watch that handle!) and place on a heatproof surface. Add a little flour to pan. Lay dough in skillet, then work edges of dough up sides of skillet with your fingertips (use a rubber spatula or wooden spoon if you’re nervous about touching the hot pan). Drizzle a little oil around inside edge of pan so that it trickles behind and underneath dough, which will encourage browning and help it release.\n\n -- Spread about ⅓ cup Buffalo sauce over dough. Arrange mozzarella over, then top with remaining ¼ cup blue cheese. Arrange chicken mixture on top. Bake pizza on top rack until crust and cheese are nicely browned, 15–20 minutes. Transfer skillet to stovetop (again, watch that handle!) and let pizza rest a few minutes. Using a spatula, slide pizza onto a cutting board or platter. Arrange celery over, then top with reserved blue cheese dressing. Season with pepper, then drizzle with oil.'
-  },
+    description: 'Büyük bir kasede, 2 yemek kaşığı yağ, limon suyu ve baharatları birleştirin; tavuğu ekleyin. Kaplayın; üzerini kapatın. 1-4 saat buzdolabında bekletin. Büyük bir tavada, kalan yağda biber ve soğanları çıtır olana kadar soteleyin. Çıkarın ve sıcak tutun. Tavuğu süzün, marineyi atın. Aynı tavada, tavuğu orta-yüksek ateşte 5-6 dakika veya pembeleşmeyene kadar pişirin. Biber karışımını tavaya geri ekleyin; ısıtın. Tortilla hamurlarının ortasına doldurun; yarısını katlayın. İstenilen soslarla servis yapın.' },
   {
     recipeId: 0,
     categoryId: 0,
-    title: 'Classic Lasagna',
+    title: 'Makarnalar',
     photo_url: 'https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg',
     photosArray: [
       "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
@@ -259,38 +181,14 @@ export const recipes = [
       'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
     ],
     time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    ingredients: [[0, '1 Su Bardağı'], [1, '1 Çay Kaşığı'], [2, '300 gram']],
     description:
       '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
   },
   {
-    recipeId: 7,
-    categoryId: 2,
-    title: 'Spaghetti Carbonara',
-    photo_url: 'https://truffle-assets.imgix.net/655ce202-862-butternutsquashcarbonara-land.jpg',
-    photosArray: [
-      'https://ak3.picdn.net/shutterstock/videos/10431533/thumb/10.jpg',
-      'https://www.kcet.org/sites/kl/files/styles/kl_image_large/public/thumbnails/image/square_hero_desktop_2x_sfs_spaghetti_carbonara_clr-3.jpg?itok=T-rsBDIZ',
-      'https://cdn-image.foodandwine.com/sites/default/files/HD-201104-r-spaghetti-with-anchovy.jpg'
-    ],
-    time: 15,
-    ingredients: [
-      [48, '50g'],
-      [49, '100g'],
-      [50, '350g'],
-      [51, '2 plump'],
-      [42, '50g'],
-      [16, '3'],
-      [1, '2 teaspoons'],
-      [4, '2 teaspoons']
-    ],
-    description:
-      '-- Put the egg yolks into a bowl, finely grate in the Parmesan, season with pepper, then mix well with a fork and put to one side. Cut any hard skin off the pancetta and set aside, then chop the meat. Cook the spaghetti in a large pan of boiling salted water until al dente.\n\n -- Meanwhile, rub the pancetta skin, if you have any, all over the base of a medium frying pan (this will add fantastic flavour, or use 1 tablespoon of oil instead), then place over a medium-high heat. Peel the garlic, then crush with the palm of your hand, add it to the pan and leave it to flavour the fat for 1 minute. Stir in the pancetta, then cook for 4 minutes, or until it starts to crisp up. Pick out and discard the garlic from the pan, then, reserving some of the cooking water, drain and add the spaghetti.\n\n -- Toss well over the heat so it really soaks up all that lovely flavour, then remove the pan from the heat. Add a splash of the cooking water and toss well, season with pepper, then pour in the egg mixture – the pan will help to cook the egg gently, rather than scrambling it. Toss well, adding more cooking water until it’s lovely and glossy. Serve with a grating of Parmesan and an extra twist of pepper.'
-  },
-  {
     recipeId: 8,
     categoryId: 2,
-    title: 'Lazania',
+    title: 'Lazanya',
     photo_url: 'https://images8.alphacoders.com/817/817353.jpg',
     photosArray: [
       'https://previews.123rf.com/images/somegirl/somegirl1509/somegirl150900048/46103208-top-view-of-a-delicious-traditional-italian-lasagna-made-with-minced-beef-bolognese-sauce-topped-wit.jpg',
@@ -299,139 +197,136 @@ export const recipes = [
     ],
     time: 60,
     ingredients: [
-      [36, '1 large'],
-      [25, '1 pound'],
-      [51, '5 cloves'],
-      [52, '1 pound'],
-      [53, '1 pound'],
-      [54, '1 28 ounce can'],
-      [23, '2 6 ounce can'],
-      [55, '2 tablespoons'],
-      [56, '1/4 cup'],
-      [10, '1/2 cup'],
-      [1, '1/2 teaspoons'],
-      [58, '1 teaspoon'],
-      [4, '1/4 teaspoons'],
+      [22, '1 adet'],
+      [25, '400 gram'],
+      [51, '5 tutam'],
+      [52, '400 gram'],
+      [53, '400 gram'],
+      [55, '2 Yemek Kaşığı'],
+      [56, '1/4 Su Bardağı'],
+      [10, '1/2 Su Bardağı'],
+      [1, '1/2 Çay Kaşığı'],
+      [58, '1 Çay Kaşığı'],
+      [4, '1/4 Çay Kaşığı'],
       [16, '1 large'],
-      [46, '1 pound'],
-      [48, '1 cup'],
-      [57, '30 ounces']
+      [46, '400 gram'],
+      [48, '1 Su Bardağı'],
     ],
     description:
-      '-- Cook noodles according to package directions; drain. Meanwhile, in a Dutch oven, cook sausage, beef and onion over medium heat 8-10 minutes or until meat is no longer pink, breaking up meat into crumbles. Add garlic; cook 1 minute. Drain. Stir in tomatoes, tomato paste, water, sugar, 3 tablespoons parsley, basil, fennel, 1/2 teaspoon salt and pepper; bring to a boil. Reduce heat; simmer, uncovered, 30 minutes, stirring occasionally. In a small bowl, mix egg, ricotta cheese, and remaining parsley and salt. Preheat oven to 375°. Spread 2 cups meat sauce into an ungreased 13x9-in. baking dish. Layer with 3 noodles and a third of the ricotta mixture. Sprinkle with 1 cup mozzarella cheese and 2 tablespoons Parmesan cheese.\n\n -- Repeat layers twice. Top with remaining meat sauce and cheeses (dish will be full). Bake, covered, 25 minutes. Bake, uncovered, 25 minutes longer or until bubbly. Let stand 15 minutes before serving.'
+      '-- Cook noodles according to package directions; drain. Meanwhile, in a Dutch oven, cook sausage, beef and onion over medium heat 8-10 minutes or until meat is no longer pink, breaking up meat into crumbles. Add garlic; cook 1 minute. Drain. Stir in tomatoes, tomato paste, water, sugar, 3 Yemek Kaşığı parsley, basil, fennel, 1/2 Çay Kaşığı salt and pepper; bring to a boil. Reduce heat; simmer, uncovered, 30 minutes, stirring occasionally. In a small bowl, mix egg, ricotta cheese, and remaining parsley and salt. Preheat oven to 375°. Spread 2 Su Bardağı meat sauce into an ungreased 13x9-in. baking dish. Layer with 3 noodles and a third of the ricotta mixture. Sprinkle with 1 Su Bardağo mozzarella cheese and 2 Yemek Kaşığı Parmesan cheese.\n\n -- Repeat layers twice. Top with remaining meat sauce and cheeses (dish will be full). Bake, covered, 25 minutes. Bake, uncovered, 25 minutes longer or until bubbly. Let stand 15 minutes before serving.'
   }
 ];
 
 export const ingredients = [
   {
     ingredientId: 0,
-    name: 'Oil',
+    name: 'Sıvı Yağ',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/27252067/thumb/11.jpg'
   },
   {
     ingredientId: 1,
-    name: 'Salt',
+    name: 'Tuz',
     photo_url:
       'https://image.freepik.com/free-photo/sea-salt-wooden-bowl-isolated-white-background_29402-416.jpg'
   },
   {
     ingredientId: 2,
-    name: 'Russet potatoes',
+    name: 'Patates',
     photo_url: 'http://www.valleyspuds.com/wp-content/uploads/Russet-Potatoes-cut.jpg'
   },
   {
     ingredientId: 3,
-    name: 'Paprika',
+    name: 'Kırmızı Biber',
     photo_url:
       'https://image.freepik.com/free-photo/red-chilli-pepper-powder-isolated-white-background_55610-28.jpg'
   },
   {
     ingredientId: 4,
-    name: 'Black Pepper',
+    name: 'Karabiber',
     photo_url: 'https://ak0.picdn.net/shutterstock/videos/26741680/thumb/1.jpg'
   },
   {
     ingredientId: 5,
-    name: 'Celery salt',
+    name: 'Kereviz Tuzu',
     photo_url: 'https://www.hasiroglugurme.com/images/urunler/Koftelik-Esmer-Bulgur-resim-297.jpg'
   },
   {
     ingredientId: 6,
-    name: 'Dried sage',
+    name: 'Kurutulmuş Adaçayı',
     photo_url:
       'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Esxjvv7/super-slow-motion-dried-sage-falling-on-white-background_n1xg2gxzg__F0000.png'
   },
   {
     ingredientId: 7,
-    name: 'Garlic powder',
+    name: 'Sarımsak Tozu',
     photo_url:
       'https://us.123rf.com/450wm/belchonock/belchonock1808/belchonock180818180/106007144-bowl-of-dry-garlic-powder-on-white-background.jpg?ver=6'
   },
   {
     ingredientId: 8,
-    name: 'Ground allspice',
+    name: 'Yenibahar',
     photo_url:
       'https://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/6/9/2695/allspice-berries-jamaican-ground-1.jpg'
   },
   {
     ingredientId: 9,
-    name: 'Dried oregano',
+    name: 'Kekik',
     photo_url: 'https://frutascharito.es/886-large_default/oregano.jpg'
   },
   {
     ingredientId: 10,
-    name: 'Dried basil',
+    name: 'Fesleğen',
     photo_url: 'https://www.honeychop.com/wp-content/uploads/2015/09/Dried-Mint.png'
   },
   {
     ingredientId: 11,
-    name: 'Dried marjoram',
+    name: 'Mercanköşk',
     photo_url: 'https://images-na.ssl-images-amazon.com/images/I/71YATIBqBYL._SX355_.jpg'
   },
   {
     ingredientId: 12,
-    name: 'All-purpose flour',
+    name: 'Un',
     photo_url:
       'https://images.assetsdelivery.com/compings_v2/seregam/seregam1309/seregam130900036.jpg'
   },
   {
     ingredientId: 13,
-    name: 'Brown sugar',
+    name: 'Esmer Şeker',
     photo_url:
       'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BALQTtekliuc6iu4u/rotating-brown-sugar-in-a-white-container-on-white-background_sis0xtbyl_thumbnail-full01.png'
   },
   {
     ingredientId: 14,
-    name: 'Kosher salt',
+    name: 'Kaşer Tuzu',
     photo_url:
       'https://d1yn1kh78jj1rr.cloudfront.net/image/preview/r64-6MxPQjlatyfjp/storyblocks-top-view-of-ceramic-salt-cellar-with-coarse-grained-sea-salt-isolated-on-white-background_SPzKionPuV_SB_PM.jpg'
   },
   {
     ingredientId: 15,
-    name: 'Whole chicken',
+    name: 'Tüm Tavuk',
     photo_url:
       'https://image.shutterstock.com/image-photo/two-raw-chicken-drumsticks-isolated-260nw-632125991.jpg'
   },
   {
     ingredientId: 16,
-    name: 'Eggs',
+    name: 'Yumurta',
     photo_url:
-      'https://image.shutterstock.com/image-photo/egg-whites-yolk-cup-isolated-260nw-1072453787.jpg'
+      'https://image.shutterstock.com/image-photo/egg-whites-yolk-Su Bardağo-isolated-260nw-1072453787.jpg'
   },
   {
     ingredientId: 17,
-    name: 'Quarts neutral oil',
+    name: 'Yağ',
     photo_url:
       'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fgettyimages-464433694_0.jpg%3Fitok%3DK42YR2GV&w=400&c=sc&poi=face&q=85'
   },
   {
     ingredientId: 18,
-    name: 'Water',
-    photo_url: 'https://ak1.picdn.net/shutterstock/videos/829561/thumb/11.jpg'
+    name: 'Su',
+    photo_url: 'https://i.lezzet.com.tr/images-xxlarge-secondary/1-litre-kac-bardak-eder-gunde-kac-bardak-su-icmeliyiz-d2223d8c-d752-4232-b14f-87c16b6b48ca.jpg'
   },
   {
     ingredientId: 19,
-    name: 'Onion Powder',
+    name: 'Soğan Tozu',
     photo_url:
       'https://image.shutterstock.com/image-photo/mixed-spices-isolated-on-white-260nw-662383828.jpg'
   },
@@ -443,238 +338,254 @@ export const ingredients = [
   },
   {
     ingredientId: 21,
-    name: 'Chicken Breast',
+    name: 'Tavuk Göğsü',
     photo_url:
       'https://us.123rf.com/450wm/utima/utima1602/utima160200063/53405187-raw-chicken-breast-fillets.jpg?ver=6'
   },
   {
     ingredientId: 22,
-    name: 'Onion chopped',
-    photo_url: 'https://s3.envato.com/files/246703499/IMG_1752_5.jpg'
+    name: 'Kuru Soğan',
+    photo_url: 'https://i.lezzet.com.tr/images-800x600/8e54d51c-4aee-46fa-9699-33991c3224a9-b2240ad3-52c8-4ebe-8e24-163da9ab735a'
   },
   {
     ingredientId: 23,
-    name: 'Tomato paste',
+    name: 'Domates Salçası',
     photo_url:
-      'http://d3e1m60ptf1oym.cloudfront.net/45bab59a-363c-11e1-ab4e-bf4c2e0bb026/PANELA_xgaplus.jpg'
+      'https://www.zeytinana.com.tr/takip/resimler/zeytinana-ev-yapimi-domates-salcasi-700-gr.jpg'
   },
   {
     ingredientId: 24,
-    name: 'Chilli Powder',
+    name: 'Toz Biber',
     photo_url:
       'https://us.123rf.com/450wm/nuttapong/nuttapong1505/nuttapong150500009/40458002-paprika-powder-isolated-on-white-background.jpg?ver=6'
   },
   {
     ingredientId: 25,
-    name: 'Ground Beef',
+    name: 'Dana Kıyma',
     photo_url:
       'https://images.radio.com/kmoxam/s3fs-public/styles/nts_image_cover_tall_775x425/public/dreamstime_s_39607998.jpg?XCM.w1UGOp9sVKkWGQZe7_JIsRddxoIK&itok=3M6KcFLH&c=73fb6497175b4c1a5c79e3ede816656a'
   },
   {
     ingredientId: 26,
-    name: 'Can kidney beans, rinsed and drained ',
+    name: 'Barbunya',
     photo_url:
       'https://www.seriouseats.com/images/2014/04/20140414-pile-of-beans-primary-1500x1125.jpg'
   },
   {
     ingredientId: 27,
-    name: 'Large Tortillas',
+    name: 'Tortilla',
     photo_url: 'https://upload.wikimedia.org/wikipedia/commons/5/56/NCI_flour_tortillas.jpg'
   },
   {
     ingredientId: 28,
-    name: 'Firtos',
+    name: 'Firto',
     photo_url:
       'https://previews.123rf.com/images/ksena32/ksena321510/ksena32151000090/45863494-fried-fish-on-a-white-background.jpg'
   },
   {
     ingredientId: 29,
-    name: 'Shredded cheddar',
+    name: 'Rendelenmiş Kaşar',
     photo_url:
       'https://image.shutterstock.com/image-photo/top-view-small-bowl-filled-260nw-284460308.jpg'
   },
   {
     ingredientId: 30,
-    name: 'Lime',
+    name: 'Lime Limon',
     photo_url: 'https://ak8.picdn.net/shutterstock/videos/23271748/thumb/1.jpg'
   },
 
   {
     ingredientId: 31,
-    name: 'Ground cumin',
+    name: 'Kimyon',
     photo_url:
       'https://image.shutterstock.com/image-photo/pile-cumin-powder-isolated-on-260nw-1193262853.jpg'
   },
   {
     ingredientId: 32,
-    name: 'Cayenne pepper',
+    name: 'Kırmızı Biber',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/11461337/thumb/1.jpg'
   },
   {
     ingredientId: 33,
-    name: 'Flaky white fish',
+    name: 'Alabalık',
     photo_url:
       'https://image.shutterstock.com/image-photo/roach-river-fish-isolated-on-260nw-277764143.jpg'
   },
   {
     ingredientId: 34,
-    name: 'Avocado',
+    name: 'Avakado',
     photo_url:
       'https://www.redwallpapers.com/public/redwallpapers-large-thumb/avocado-cut-stone-leaves-white-background-free-stock-photos-images-hd-wallpaper.jpg'
   },
   {
     ingredientId: 35,
-    name: 'Red Pepper Flakes',
+    name: 'Pulbiber',
     photo_url:
       'https://as1.ftcdn.net/jpg/02/06/55/10/500_F_206551074_mVczUrAWOSMaw8kR48FQDQBqDw47jCtL.jpg'
   },
   {
     ingredientId: 36,
-    name: 'Onions',
+    name: 'Soğan',
     photo_url: 'http://www.allwhitebackground.com/images/2/2650.jpg'
   },
   {
     ingredientId: 37,
-    name: 'Green Pepper',
+    name: 'Yeşil Biber',
     photo_url: 'https://ak9.picdn.net/shutterstock/videos/4055509/thumb/1.jpg'
   },
   {
     ingredientId: 38,
-    name: 'Red Pepper',
+    name: 'Kırmızı Biber',
     photo_url: 'https://ak9.picdn.net/shutterstock/videos/10314179/thumb/1.jpg'
   },
   {
     ingredientId: 39,
-    name: 'Pizza dough',
+    name: 'Pizza Hamuru',
     photo_url:
       'https://image.shutterstock.com/image-photo/fresh-raw-dough-pizza-bread-260nw-518950903.jpg'
   },
   {
     ingredientId: 40,
-    name: 'Ketchup sauce',
+    name: 'Ketçap',
     photo_url:
       'https://st2.depositphotos.com/5262887/11050/i/950/depositphotos_110501208-stock-photo-ketchup-bowl-isolated-on-white.jpg'
   },
   {
     ingredientId: 41,
-    name: 'Hot Sauce',
+    name: 'Acı Sos',
     photo_url:
       'https://media.istockphoto.com/photos/opened-can-of-spaghetti-sauce-on-a-white-background-picture-id497704752?k=6&m=497704752&s=612x612&w=0&h=JnL54buYu1Z3fGtd8uNdjFxiAKwlxoDluD6jbIfSaZI='
   },
   {
     ingredientId: 42,
-    name: 'Butter',
-    photo_url: 'https://redrockstoffee.com/media/2016/11/AdobeStock_76417550.jpeg'
+    name: 'Tereyağı',
+    photo_url: 'https://sogutsofrasi.com/cdn/shop/products/01122020201842.jpg?v=1633895015'
   },
   {
     ingredientId: 43,
-    name: 'Heavy Cream',
+    name: 'Krema',
     photo_url:
       'https://media.istockphoto.com/photos/mayonnaise-in-bowl-isolated-on-white-background-picture-id614981116?k=6&m=614981116&s=612x612&w=0&h=LtbsI2HQXOTERYuP9YJ2PJfRF3W6DcyZ798fxMcQWC0='
   },
   {
     ingredientId: 44,
-    name: 'whole-milk plain yogurt',
+    name: 'Yoğurt',
     photo_url:
       'https://st.depositphotos.com/2757384/3317/i/950/depositphotos_33170129-stock-photo-pouring-a-glass-of-milk.jpg'
   },
   {
     ingredientId: 45,
-    name: 'Chesse',
+    name: 'Peynir',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/3619997/thumb/1.jpg'
   },
   {
     ingredientId: 46,
-    name: 'Mozzarella',
+    name: 'Mozarella',
     photo_url:
       'https://t3.ftcdn.net/jpg/02/06/73/98/500_F_206739841_suPu6qDPHlowFqx9qo8fLqV8sNevL2g3.jpg'
   },
   {
     ingredientId: 47,
-    name: 'celery stalks',
+    name: 'Kereviz Sapları',
     photo_url:
       'https://cdn4.eyeem.com/thumb/6d1b3957c7caa9b73c3e0f820ef854b931808139-1538043742765/w/750'
   },
   {
     ingredientId: 48,
-    name: 'Parmesan Chesse',
+    name: 'Parmesan Peyniri',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/3721877/thumb/1.jpg'
   },
   {
     ingredientId: 49,
-    name: 'pancetta',
+    name: 'Pancetta',
     photo_url:
       'https://previews.123rf.com/images/onlyfabrizio/onlyfabrizio1606/onlyfabrizio160600002/60198502-raw-stripes-of-pancetta-stesa-on-a-white-background.jpg'
   },
   {
     ingredientId: 50,
-    name: 'Spaghetti',
+    name: 'Spagetti',
     photo_url:
       'https://previews.123rf.com/images/mfron/mfron1204/mfron120400098/13306773-bunch-of-spaghetti-nudeln-isoliert-auf-wei%C3%9Fem-hintergrund.jpg'
   },
   {
     ingredientId: 51,
-    name: 'Garlic',
+    name: 'Sarımsak',
     photo_url: 'https://image.freepik.com/free-photo/fresh-garlic-white-background_1339-17012.jpg'
   },
   {
     ingredientId: 52,
-    name: 'Lasagna noodles',
+    name: 'Lazanya Hamuru',
     photo_url:
       'https://previews.123rf.com/images/velkol/velkol1110/velkol111000004/11083085-an-image-of-raw-lasagna-on-white-background.jpg'
   },
   {
     ingredientId: 53,
-    name: 'Italian sauce',
+    name: 'İtalyan Sosu',
     photo_url:
       'https://previews.123rf.com/images/arinahabich/arinahabich1504/arinahabich150400858/38827029-raw-italian-sausage-on-a-white-background-.jpg'
   },
   {
     ingredientId: 54,
-    name: 'Crushed Tomatoes',
+    name: 'Domates Püresi',
     photo_url:
-      'https://previews.123rf.com/images/merkulovnik/merkulovnik1406/merkulovnik140600100/28751626-crushed-tomato-isolated-on-white-background.jpg'
+      'https://zeytininadigemlik.com/wp-content/uploads/2021/09/15-kahvatiik-knserve.webp'
   },
   {
     ingredientId: 55,
-    name: 'Sugar',
+    name: 'Şeker',
     photo_url:
       'https://previews.123rf.com/images/sommai/sommai1411/sommai141100034/33199985-sugar-cubes-in-a-bowl-isolated-on-white-background.jpg'
   },
   {
     ingredientId: 56,
-    name: 'minced fresh parsley',
+    name: 'Maydanoz',
     photo_url:
       'https://t4.ftcdn.net/jpg/02/15/78/05/240_F_215780551_Eid0xpP1M2fokvuEcvJj8uqhROLJkb3p.jpg'
   },
   {
     ingredientId: 57,
-    name: 'ricotta cheese',
+    name: 'Ricotta Peyniri',
     photo_url:
       'https://previews.123rf.com/images/barkstudio/barkstudio1608/barkstudio160800351/61418602-ricotta-cheese-into-a-bowl-in-white-background.jpg'
   },
   {
     ingredientId: 58,
-    name: ' fennel seed',
+    name: 'Rezene tohumu',
     photo_url:
       'https://previews.123rf.com/images/pinkomelet/pinkomelet1710/pinkomelet171000227/88851299-close-up-the-fennel-seed-on-white-background.jpg'
   },
   {
     ingredientId: 59,
-    name: 'Banana',
+    name: 'Muz',
     photo_url:
-      'https://www.conservationmagazine.org/wp-content/uploads/2013/04/sterile-banana.jpg'
+      'https://cdn.myikas.com/images/4afecb76-ba28-4669-a6c5-11f86304598d/d2dab9f3-fec8-478c-a09f-3db7a2e8a285/3840/img-3869.webp'
   },
   {
     ingredientId: 60,
-    name: 'Frozen Straberries',
+    name: 'Donmuş Çilek',
     photo_url:
       'https://www.cascadianfarm.com/wp-content/uploads/2018/12/Strawberries_Main_0218.png'
   },
   {
     ingredientId: 61,
-    name: 'Greek Yogurt',
+    name: 'Yoğurt',
     photo_url:
       'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
   },
+  {
+    ingredientId: 62,
+    name: 'Maya',
+    photo_url:
+      'https://www.shutterstock.com/image-photo/dry-yeast-wooden-scoop-on-600nw-1057206197.jpg'
+  },
+  {
+    ingredientId: 63,
+    name: 'Bitter Çikolata',
+    photo_url: 'https://www.cikolatasepeti.com/resim/bitter-cikolata-yuzde-70-kakao-0-2212.jpg'
+  },
+  {
+    ingredientId: 64,
+    name: 'Vanilya',
+    photo_url: 'https://ardenmarket.com.tr/media/catalog/product/cache/0b154ba1d9ffbc98998b9163ce10b49b/d/r/dr.oetker_ekerli_vanilin_10_lu_50_g.jpg'
+  }
 ];
